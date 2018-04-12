@@ -14,3 +14,5 @@ Test if your relationships are properly working by using the seed data included.
 
 # Deliverables
 Your sprint is to build out the campaign functionality (all CRUD actions/views for a campaign). You should be able to add donors to a campaign via the campaign edit page.
+
+Try adding a few validations.
