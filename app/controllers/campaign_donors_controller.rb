@@ -1,0 +1,2 @@
+class CampaignDonorsController < ApplicationController
+end

@@ -1,19 +1,16 @@
 # Instructions
+You work for a philanthropy and you are helping to build a Donor Management System to track their fundraising.
 
-You work for a fundraising consultancy that helps different companies in their fundraising efforts. In order to track the success of your work, you are building a Donor Management System. Your system tracks:
-- companies
-- campaigns
-- donors
 
 # Relationships
-A company runs many campaigns, but the campaign is specific to that company. A campaign has many donors, but donors might donate to a lot of campaigns at a lot of companies.
+There are many different campaigns. A campaign has many donors and a donor has many campaigns.
 
 Set up the tables with the following information:
-A company has a name and a motto.
-A campaign has a name and a start date
+A campaign has a name, a start date and a tagline
 A donor has a name
-Make sure to include your relationships in there!
+A campaign-donor table joins them
 
 Test if your relationships are properly working by using the seed data included.
 
 # Deliverables
+Your sprint is to build out the campaign functionality (all CRUD actions/views for a campaign). You should be able to add donors to a campaign via the campaign edit page.

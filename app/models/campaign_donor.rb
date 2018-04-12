@@ -1,0 +1,2 @@
+class CampaignDonor < ApplicationRecord
+end
